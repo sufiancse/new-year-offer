@@ -341,3 +341,42 @@
     z-index: 2;
     /* উপরে থাকবে */
 }
+
+/* seventh section */
+
+.seventh-section{
+    margin: 0px 140px;
+    margin-bottom: 120px;
+    /* width: 1320px; */
+}
+.seven-section-text{text-align: center;}
+.seven-section-text .p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 10px;
+}
+.seven-section-text h2{
+     font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.seven-section-text p{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 20px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    
+}
+.cards{
+    
+    width: 424px;
+    height: 450px;
+}
