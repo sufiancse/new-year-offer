@@ -1,0 +1,68 @@
+/* .bg-img-new-year{
+    background-image:linear-gradient(to bottom, rgba(7, 2, 17, 1),rgba(7, 2, 17, 0)), url(../images/Banner\ Image.png);
+    max-width: 1320px;
+    width: 100%;
+    height: 600px;
+    padding: 50px 140px 120px 140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+.merriweather-font {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.body{
+    margin: 50px 140px 0px 140px;
+}
+.bg-img-new-year {
+    margin: 50px 140px 120px 140px;
+}
+
+.bg-inner {
+    background-image: linear-gradient(to bottom, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url('../images/Banner Image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.new-year{
+    padding: 20px 40px;
+    
+}
+.new-year-title{
+    font-size: 32px;
+    color: white;
+    -webkit-text-stroke:1px rgba(0, 0, 0, 1);
+    margin-bottom: -127px;
+    margin-top: 80px;
+    
+    
+}
+.new-year-celebration{
+    font-size: 72px;
+    color: white;
+    -webkit-text-stroke:1px rgba(0, 0, 0, 1);
+    margin-top: 150px;
+    
+}
