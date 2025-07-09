@@ -18,24 +18,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .merriweather-font {
-  font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
 }
 
-.body{
+.body {
     margin: 50px 140px 0px 140px;
 }
+
 .bg-img-new-year {
     margin: 50px 140px 120px 140px;
 }
@@ -45,7 +46,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
+
     height: 800px;
     display: flex;
     justify-content: center;
@@ -54,57 +55,122 @@
     border-radius: 16px;
 }
 
-.new-year{
+.new-year {
     padding: 20px 40px;
-    
+
 }
-.new-year-title{
+
+.new-year-title {
     font-size: 52px;
     color: white;
-    -webkit-text-stroke:1px rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
     margin-bottom: -127px;
     margin-top: 80px;
-    
-    
+
+
 }
-.new-year-celebration{
+
+.new-year-celebration {
     font-size: 92px;
     color: white;
-    -webkit-text-stroke:1px rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
     margin-top: 150px;
-    
+
 }
 
 /* section 2 */
-.section-2{
+.section-2 {
     margin-bottom: 120px;
 }
-.sec-2-text{
+
+.sec-2-text {
     text-align: center;
-    font-family: ;
+
 }
-.sec-2-text h1{
-    color:#FF0000;
+
+.sec-2-text h1 {
+    color: #FF0000;
     font-size: 88px;
     font-weight: bold;
     margin-bottom: 48px;
 }
-.sec-2-text h3{
+
+.sec-2-text h3 {
     color: #FF0000;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 0;
     margin-top: 0;
 }
-.sec-2-text h2{
+
+.sec-2-text h2 {
     color: #070211;
     font-size: 48px;
     font-weight: bold;
     margin-top: 16px;
     margin-bottom: 48px;
 }
-.sec-2-img{
+
+.sec-2-img {
     display: flex;
     justify-content: center;
     margin-top: 0;
 }
+
+
+/* third section */
+
+.bg-img-third-section {
+    /* background-image: linear-gradient(to left, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../images/Vectorrr.png); */
+    background-image: linear-gradient(to right, rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)), url(../images/Vectorrr.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 140px;
+    margin-bottom: 120px;
+    height: 800px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.third-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: center; */
+    
+    
+}
+
+.third-sec-text h1{
+    font-size: 64px;
+    font-weight:bolder;
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.2px rgba(0, 0, 0, 1);
+    padding: 126px 94px 24px 126px;
+    margin-bottom: 0px;
+}
+.third-sec-text h3{
+    font-size: 18px;
+    font-weight:bolder;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 1);
+    padding: 0px 39px 48px 126px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.third-sec-text a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 48px 601px 142px 158px;
+    margin-top: 48px;
+}
+
+.third-sec-img {
+    padding: 100px 228px 67px 40px;    
+    width: 319px;
+    height: 467px;
+} 
