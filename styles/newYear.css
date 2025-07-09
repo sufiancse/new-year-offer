@@ -260,18 +260,84 @@
     justify-content: center;
     align-items: center;
 }
-.fifth-third-column{
-    padding-top:106px ;
+
+.fifth-third-column {
+    padding-top: 106px;
 }
-.fifth-third-column h2{
+
+.fifth-third-column h2 {
     font-size: 48px;
     font-weight: bold;
     color: #FF0000;
     margin-bottom: 0px;
-    
+
 }
-.fifth-third-column p{
+
+.fifth-third-column p {
     font-size: 20px;
-    color: rgba(7, 2, 17, 0.6) ;
+    color: rgba(7, 2, 17, 0.6);
     margin-top: 10px;
+}
+
+/* six section */
+.sixth-section-text {
+    text-align: center;
+
+}
+
+.sixth-section-text .p {
+    font-size: 24px;
+    color: #070211;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.sixth-section-text h1 {
+    font-size: 72px;
+    color: #070211;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.sixth-section-text p {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 20px;
+}
+
+
+.image-wrapper {
+    position: relative;
+    width: 800px;
+    /* প্রয়োজন মতো */
+    height: 665px;
+    /* প্রয়োজন মতো */
+    margin: 0px 140px;
+    margin-bottom: 120px;
+}
+
+.bg-img {
+    position: absolute;
+    bottom: 0;
+    /* নিচে বসবে */
+    left: 0;
+    /* transform: translateX(-50%); */
+    height: 229px;
+    width: 1320px;
+    /* Background image ছোট, নিচে থাকবে */
+    z-index: 1;
+}
+
+.popcorn-img {
+    position: absolute;
+    bottom: 50px;
+    /* নিচ থেকে একটু উপরে উঠবে */
+    left: 50%;
+    transform: translateX(-50%);
+    height: 250px;
+    /* বড় popcorn image */
+    z-index: 2;
+    /* উপরে থাকবে */
 }
