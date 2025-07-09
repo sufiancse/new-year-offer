@@ -344,39 +344,111 @@
 
 /* seventh section */
 
-.seventh-section{
+.seventh-section {
     margin: 0px 140px;
     margin-bottom: 120px;
     /* width: 1320px; */
 }
-.seven-section-text{text-align: center;}
-.seven-section-text .p{
+
+.seven-section-text {
+    text-align: center;
+}
+
+.seven-section-text .p {
     font-size: 24px;
     font-weight: 500;
     color: #FF0000;
     margin-bottom: 10px;
 }
-.seven-section-text h2{
-     font-size: 48px;
+
+.seven-section-text h2 {
+    font-size: 48px;
     font-weight: 900;
     color: #070211;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.seven-section-text p{
+
+.seven-section-text p {
     font-size: 20px;
     color: rgba(7, 2, 17, 0.6);
     margin-top: 20px;
 }
-.card-container{
+
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
-    
+
 }
-.cards{
-    
+
+.cards {
+
     width: 424px;
     height: 450px;
+}
+
+/* eighth section */
+.eighth-section {
+    background-color: rgba(255, 0, 0, 0.1);
+    height: 582px;
+    border-radius: 16px;
+    margin: 0px 140px;
+    margin-bottom: 120px;
+}
+
+.eighth-section-1st-part {
+    text-align: center;
+    padding: 80px 212px 48px 212px;
+}
+
+.eighth-section-1st-part img {
+    margin-bottom: 0px;
+}
+
+.eighth-section-1st-part h2 {
+    font-size: 48px;
+    color: #070211;
+    font-weight: bolder;
+    margin-top: 15px ;
+    margin-bottom: 20px;   
+}
+
+.eighth-section-1st-part p {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* .eighth-section-last-part {
+    text-align: center;
+    margin-top: 0px;
+    
+} */
+
+.eighth-section-last-part{
+    width: 650px;
+    height: 72px;
+    display: flex;
+    border-radius: 999px;
+    margin: auto;
+    overflow: hidden;
+}
+.eighth-section-last-part input{
+    flex: 1;
+    font-size: 18px;
+    border: none;
+    border-radius: 999px 0 0 999px;
+    padding: 25px 200px 25px 30px;
+    outline: none;
+}
+.eighth-section-last-part button{
+    background-color: #FF0000;
+    color: white;
+    font-size: 20px;
+    padding: 24px 56px;
+    border: none;
+    border-radius: 0 999px 999px 0;
 }
