@@ -307,39 +307,18 @@
     margin-top: 20px;
 }
 
-
-.image-wrapper {
-    position: relative;
-    width: 800px;
-    /* প্রয়োজন মতো */
-    height: 665px;
-    /* প্রয়োজন মতো */
+.six-2nd-part{
+    background-image: url(../images/Rectangle\ 2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
     margin: 0px 140px;
     margin-bottom: 120px;
 }
-
-.bg-img {
-    position: absolute;
-    bottom: 0;
-    /* নিচে বসবে */
-    left: 0;
-    /* transform: translateX(-50%); */
-    height: 229px;
-    width: 1320px;
-    /* Background image ছোট, নিচে থাকবে */
-    z-index: 1;
-}
-
-.popcorn-img {
-    position: absolute;
-    bottom: 50px;
-    /* নিচ থেকে একটু উপরে উঠবে */
-    left: 50%;
-    transform: translateX(-50%);
-    height: 250px;
-    /* বড় popcorn image */
-    z-index: 2;
-    /* উপরে থাকবে */
+.img-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
 }
 
 /* seventh section */
